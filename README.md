@@ -5,7 +5,6 @@
 A modern, fast, and highly customisable portfolio template built with Vite, React, TypeScript, and shadcn/ui. Designed for developers who want a stunning, professional online presence with minimal setup.
 
 <img src="https://img.shields.io/github/license/medy17/Candy-Glass-React-Portfolio?style=for-the-badge" alt="License"/>  
-<img src="https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge" alt="Build Status"/>  
 <img src="https://img.shields.io/badge/Framework-React-blue?style=for-the-badge&logo=react" alt="React"/>  
 <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>  
 <img src="https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS"/>  
@@ -227,4 +226,6 @@ See the [LICENCE](LICENCE) file for more details.
 
 ---
 
-_This template was created by [Your Name](https://your-link.com) and inspired by the best of the modern web._
+_This template was created by [Ahmed Arat](https://ahmed-arat.vercel.app)._
+
+Copyright © `2025` `Ahmed Arat`
