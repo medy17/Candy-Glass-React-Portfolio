@@ -8,4 +8,6 @@ export const languageHsl: Record<string, string> = {
   Java: "22 37% 38%",
   Astro: "18 100% 51%",
   React: "193 95% 68%",
+  Git: "10 87% 56%",
+  "Node.js": "118 57% 53%",
 };
