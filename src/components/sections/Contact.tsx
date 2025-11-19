@@ -7,7 +7,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { resume } from "@/data/resume";
 
 export function Contact() {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -27,7 +26,7 @@ export function Contact() {
         const formData = new FormData(e.currentTarget);
 
         try {
-            const response = await fetch(resume.contact.formspreeUrl, {
+            const response: Response = await fetch(import.meta.env.VITE_FORMSPREE_URL, {
                 method: "POST",
                 body: formData,
                 headers: { Accept: "application/json" },

@@ -26,8 +26,6 @@ export const resume: SiteConfig = {
     ],
 
     contact: {
-        // Replace this with your own formspree link
-        formspreeUrl: "https://formspree.io/f/mkgqqrle",
         socials: [
             {name: "GitHub", url: "https://github.com/medy17", icon: Github},
             {name: "LinkedIn", url: "https://www.linkedin.com/in/ahmed-arat-34a472a3/", icon: Linkedin},

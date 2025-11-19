@@ -48,7 +48,7 @@ export interface SiteConfig {
     location: string;
     email: string;
     contact: {
-        formspreeUrl: string;
+        formspreeUrl?: string;
         socials: Social[];
     };
     skills: string[];
