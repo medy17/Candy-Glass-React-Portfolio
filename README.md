@@ -1,15 +1,16 @@
 <div align="center">
-
+<img src="[url](https://6npzkuw81o.ufs.sh/f/3E5FgwyJnGLTfMn1ew5eHt3YKhoj5NZVwndBqEvm8uMAWDFa)" alt="Demo GIF">
 <h1>Candy Glass Portfolio</h1>
 
 A modern, fast, and highly customisable portfolio template built with Vite, React, TypeScript, and shadcn/ui. Designed for developers who want a stunning, professional online presence with minimal setup.
 
+<img src="https://img.shields.io/github/license/medy17/Candy-Glass-React-Portfolio?style=for-the-badge" alt="License"/>  
+<img src="https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge" alt="Build Status"/>  
 <img src="https://img.shields.io/badge/Framework-React-blue?style=for-the-badge&logo=react" alt="React"/>  
 <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>  
 <img src="https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS"/>  
 <img src="https://img.shields.io/badge/Build%20Tool-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>  
 <img src="https://img.shields.io/badge/Package%20Manager-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm"/>
-<img src="https://img.shields.io/github/license/medy17/Candy-Glass-React-Portfolio?style=for-the-badge" alt="License"/>  
 
 
   <p align="center" style="font-size: 1.2rem;">
