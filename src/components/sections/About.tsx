@@ -1,3 +1,4 @@
+// src/components/sections/About.tsx
 import { Badge } from "@/components/ui/badge";
 import { Code, Heart } from "lucide-react";
 import { languageHsl } from "@/lib/colours";

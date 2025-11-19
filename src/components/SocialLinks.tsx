@@ -1,3 +1,4 @@
+// src/components/SocialLinks.tsx
 import { resume } from "@/data/resume";
 
 export function SocialLinks() {

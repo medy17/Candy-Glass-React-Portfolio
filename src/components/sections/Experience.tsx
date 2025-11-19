@@ -1,3 +1,4 @@
+// src/components/sections/Experience.tsx
 import { cn } from "@/lib/utils";
 import { Briefcase, GraduationCap } from "lucide-react";
 import { resume } from "@/data/resume";

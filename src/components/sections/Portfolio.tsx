@@ -1,3 +1,4 @@
+// src/components/sections/Portfolio.tsx
 import { useState, useEffect } from "react";
 import { Drawer, DrawerContent, DrawerTitle, DrawerDescription } from "@/components/ui/drawer";
 import { Carousel, CarouselContent, CarouselItem, CarouselDots } from "@/components/ui/carousel";

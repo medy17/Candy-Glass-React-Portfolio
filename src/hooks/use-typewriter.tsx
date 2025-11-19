@@ -1,3 +1,4 @@
+// src/hooks/use-typewriter.ts
 import { useState, useEffect } from 'react';
 
 export function useTypewriter(words: string[], speed = 150, pause = 2000) {

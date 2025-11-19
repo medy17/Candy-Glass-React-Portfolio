@@ -1,3 +1,4 @@
+// src/components/CommandMenu.tsx
 import * as React from "react";
 import {
     CommandDialog,
@@ -16,7 +17,6 @@ import {
     Mail,
     ExternalLink,
     Box,
-    GraduationCap,
     Copy
 } from "lucide-react";
 import { toast } from "sonner";

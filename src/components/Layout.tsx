@@ -1,3 +1,4 @@
+// src/components/Layout.tsx
 import { useState, ReactNode } from 'react';
 import { Menu, Mail, X, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";

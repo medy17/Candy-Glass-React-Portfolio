@@ -1,3 +1,4 @@
+// src/components/TiltedFigure.tsx
 import { useEffect, useRef } from "react";
 
 export function TiltedFigure({
