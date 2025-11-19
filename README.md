@@ -10,8 +10,7 @@ A modern, fast, and highly customisable portfolio template built with Vite, Reac
 <img src="https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS"/>  
 <img src="https://img.shields.io/badge/Build%20Tool-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>  
 <img src="https://img.shields.io/badge/Package%20Manager-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm"/>
-&nbsp;
-
+<p></p>
   <p align="center" style="font-size: 1.2rem;">
     <a href="https://ahmed-arat.vercel.app/"><strong>Demo Deployment »</strong></a> <br />
   </p>
