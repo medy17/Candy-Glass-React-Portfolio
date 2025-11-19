@@ -30,6 +30,13 @@ A modern, fast, and highly customisable portfolio template built with Vite, Reac
 
 ---
 
+## Screenshots
+
+
+| Home page    | Description                                     |
+|--------------|-------------------------------------------------|
+|  | Starts the development server                   |
+
 ## Getting Started
 
 Follow the steps below to set up your own portfolio.
