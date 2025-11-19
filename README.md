@@ -33,9 +33,9 @@ A modern, fast, and highly customisable portfolio template built with Vite, Reac
 ## Screenshots
 
 
-| Home page    | Description                                     |
-|--------------|-------------------------------------------------|
-|  | Starts the development server                   |
+| Home page                                                                                                                                         | Portfolio                                                                                                                                    |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="https://raw.githubusercontent.com/medy17/Candy-Glass-React-Portfolio/refs/heads/main/readme-assets/home.jpg" alt="home"> | <img src="https://raw.githubusercontent.com/medy17/Candy-Glass-React-Portfolio/refs/heads/main/readme-assets/portfolio.jpg" alt="portfolio"> |
 
 ## Getting Started
 
