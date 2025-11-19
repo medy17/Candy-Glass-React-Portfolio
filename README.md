@@ -1,5 +1,6 @@
-<div align="center">
-<img src="https://6npzkuw81o.ufs.sh/f/3E5FgwyJnGLTfMn1ew5eHt3YKhoj5NZVwndBqEvm8uMAWDFa" alt="Demo GIF">
+
+<div align="center![Candy Glass Portfolio-2_compressed](https://github.com/user-attachments/assets/87a20585-fb8d-4aef-a69e-0ef9afe01fb8)
+">
 <h1>Candy Glass Portfolio</h1>
 
 A modern, fast, and highly customisable portfolio template built with Vite, React, TypeScript, and shadcn/ui. Designed for developers who want a stunning, professional online presence with minimal setup.
