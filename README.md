@@ -12,7 +12,7 @@ A modern, fast, and highly customisable portfolio template built with Vite, Reac
 <img src="https://img.shields.io/badge/Package%20Manager-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm"/>
 <p></p>
   <p align="center" style="font-size: 1.2rem;">
-    <a href="https://ahmed-arat.vercel.app/"><strong>Demo Deployment »</strong></a> <br />
+    <a href="https://ahmed-arat.vercel.app/" style="font-size: 1rem;"><strong>Demo Deployment »</strong></a> <br />
   </p>
 </div>
 
