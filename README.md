@@ -12,7 +12,7 @@ A modern, fast, and highly customisable portfolio template built with Vite, Reac
 <img src="https://img.shields.io/badge/Package%20Manager-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm"/>
 <p></p>
 <p align="center" style="font-size: 1.2rem;">
-    <a href="https://ahmed-arat.vercel.app/" style="font-size: 1.1rem;"><strong>Demo Deployment »</strong></a> <br /><br />
+    <a href="https://ahmed-arat.vercel.app/" style="font-size: 1.1rem;"><strong>Live Demo 🔗</strong></a> <br /><br />
     <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmedy17%2FCandy-Glass-React-Portfolio"><img src="https://vercel.com/button" alt="Deploy with Vercel"/></a>
   </p>
 <img src="https://raw.githubusercontent.com/medy17/Candy-Glass-React-Portfolio/refs/heads/main/readme-assets/lighthouse.jpg" alt="lighthouse score" />
