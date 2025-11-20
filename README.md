@@ -76,7 +76,6 @@ Your portfolio should now be running at `http://localhost:8080`.
 
 The template is designed to be easily customisable. Most of your personal content is defined in one place.
 
-### NOTE: You must change the `<meta>` tag in `index.html` to match your own identity. If you don't change it, your portfolio will be indexed by Google and other search engines as if it were mine. Not great.
 
 ### 1. The Main Data File
 
