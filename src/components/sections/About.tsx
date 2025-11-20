@@ -45,7 +45,7 @@ export function About() {
                 <article className="glass-card rounded-[1.5rem] p-8 animate-fade-up delay-300">
                     <div className="flex items-center gap-3 mb-6">
                         <div className="p-2.5 bg-primary/10 rounded-xl text-primary border border-primary/20"><Code className="h-6 w-6" /></div>
-                        <h3 className="text-xl font-bold tracking-tight">Technical Arsenal</h3>
+                        <h2 className="text-xl font-bold tracking-tight">Technical Arsenal</h2>
                     </div>
                     <div className="flex flex-wrap gap-2">
                         {resume.skills.map((skill) => (
@@ -59,7 +59,7 @@ export function About() {
                 <article className="glass-card rounded-[1.5rem] p-8 animate-fade-up delay-400">
                     <div className="flex items-center gap-3 mb-6">
                         <div className="p-2.5 bg-secondary/10 rounded-xl text-secondary border border-secondary/20"><Heart className="h-6 w-6" /></div>
-                        <h3 className="text-xl font-bold tracking-tight">My Personal Side :)</h3>
+                        <h2 className="text-xl font-bold tracking-tight">My Personal Side :)</h2>
                     </div>
                     <div className="grid gap-4">
                         {resume.attributes.map((attr) => {
