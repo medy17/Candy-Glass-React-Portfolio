@@ -17,7 +17,7 @@ export function About() {
             <div className="flex flex-col md:grid md:grid-cols-[1.4fr,1fr] gap-10 items-center md:items-start mb-16 animate-fade-up">
                 <div className="space-y-6 order-2 md:order-1 pt-4">
                     <div>
-                        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4 bg-gradient-to-br from-white via-white to-white/50 bg-clip-text text-transparent">
+                        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4 bg-gradient-to-br from-white via-white to-white/50 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(219,39,119,0.3)]">
                             About me
                         </h1>
                         <div className="h-1 w-20 bg-primary rounded-full" />

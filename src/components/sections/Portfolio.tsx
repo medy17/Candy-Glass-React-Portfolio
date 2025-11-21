@@ -1,5 +1,5 @@
 // src/components/sections/Portfolio.tsx
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Drawer, DrawerContent, DrawerTitle, DrawerDescription } from "@/components/ui/drawer";
 import { Carousel, CarouselContent, CarouselItem, CarouselDots } from "@/components/ui/carousel";
 import { Button } from "@/components/ui/button";
@@ -61,6 +61,12 @@ export function Portfolio() {
     const projects = resume.projects;
     const selectedProject = projects.find(p => p.title === selectedId);
 
+    // Detect Firefox to disable layoutId animations because Gecko struggles with them
+    const isFirefox = useMemo(() => {
+        if (typeof window === "undefined") return false;
+        return navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+    }, []);
+
     useEffect(() => {
         if (selectedId) {
             document.body.style.overflow = 'hidden';
@@ -97,7 +103,14 @@ export function Portfolio() {
                         <div className="relative aspect-video overflow-hidden border-b border-white/5 bg-black/20 cursor-pointer" onClick={() => setSelectedId(project.title)}>
                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-10 opacity-60 group-hover:opacity-40 transition-opacity pointer-events-none" />
                             {!isMobile ? (
-                                <motion.img layoutId={`img-${project.title}`} src={project.images[0]} alt={project.title} className={cn("w-full h-full object-cover", selectedId === project.title ? "opacity-0" : "opacity-100")} whileHover={{ scale: 1.05 }} transition={{ duration: 0.4 }} />
+                                <motion.img
+                                    layoutId={isFirefox ? undefined : `img-${project.title}`}
+                                    src={project.images[0]}
+                                    alt={project.title}
+                                    className={cn("w-full h-full object-cover", selectedId === project.title ? "opacity-0" : "opacity-100")}
+                                    whileHover={{ scale: 1.05 }}
+                                    transition={{ duration: 0.4 }}
+                                />
                             ) : (
                                 <img src={project.images[0]} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105" />
                             )}
@@ -137,7 +150,16 @@ export function Portfolio() {
                                         {selectedProject.images.map((image, index) => (
                                             <CarouselItem key={index}>
                                                 <div className="rounded-lg overflow-hidden shadow-2xl border border-white/10 bg-black/50">
-                                                    {index === 0 ? <motion.img layoutId={`img-${selectedProject.title}`} src={image} className="w-full h-auto object-cover" transition={{ duration: 0.4, ease: "easeInOut" }} /> : <img src={image} className="w-full h-auto object-cover" alt="" />}
+                                                    {index === 0 ? (
+                                                        <motion.img
+                                                            layoutId={isFirefox ? undefined : `img-${selectedProject.title}`}
+                                                            src={image}
+                                                            className="w-full h-auto object-cover"
+                                                            transition={{ duration: 0.4, ease: "easeInOut" }}
+                                                        />
+                                                    ) : (
+                                                        <img src={image} className="w-full h-auto object-cover" alt="" />
+                                                    )}
                                                 </div>
                                             </CarouselItem>
                                         ))}
