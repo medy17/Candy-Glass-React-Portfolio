@@ -7,7 +7,7 @@ export function Experience() {
     return (
         <div className="max-w-4xl mx-auto pb-10">
             <header className="mb-12 animate-fade-up">
-                <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">Experience</h1>
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">Experience</h2>
                 <p className="text-muted-foreground text-lg">My academic and professional journey so far.</p>
             </header>
 

@@ -93,7 +93,7 @@ export function Portfolio() {
     return (
         <div className="pb-8 relative">
             <header className="flex flex-col gap-2 mb-8 border-b border-white/10 pb-6 animate-fade-up">
-                <h1 className="text-4xl md:text-5xl font-bold tracking-tight bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">Portfolio</h1>
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tight bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">Portfolio</h2>
                 <p className="text-muted-foreground text-lg">A collection of {projects.length} projects exploring web, systems, and design.</p>
             </header>
 

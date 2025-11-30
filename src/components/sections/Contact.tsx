@@ -51,7 +51,7 @@ export function Contact() {
     };
 
     return (
-        <div className="max-w-2xl mx-auto pb-10 animate-fade-up">
+        <div className="max-w-4xl mx-auto pb-10 animate-fade-up">
             {isSuccess && createPortal(
                 <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex flex-col items-center justify-center z-[100]">
                     <div className="glass-card p-8 rounded-3xl flex flex-col items-center animate-fade-up">
@@ -65,10 +65,9 @@ export function Contact() {
             )}
 
             <header className="mb-10 text-center md:text-left">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-4">
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">Get in touch <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-4">
                     <Hammer className="w-3 h-3" /> Let's create something
-                </div>
-                <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Get in touch</h1>
+                </div></h2>
                 <p className="text-muted-foreground text-lg leading-relaxed max-w-[60ch]">
                     Have a project in mind or just want to say hi? I'm currently open to new opportunities and collaborations.
                 </p>
